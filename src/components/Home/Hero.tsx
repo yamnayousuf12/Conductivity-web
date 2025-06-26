@@ -12,7 +12,7 @@ import Image from "next/image";
 const images = [
   { src: "/2GIF.gif", thumbnail: "/2G.jpg" },
   { src: "/7gif.gif", thumbnail: "/7.png" },
-  { src: "/job.gif", thumbnail: "/job.png" },
+  // { src: "/job.gif", thumbnail: "/job.png" },
   // { src: "/job2.gif", thumbnail: "/job.png" },
   
 ];
