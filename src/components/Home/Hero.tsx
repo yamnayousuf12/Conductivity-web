@@ -10,9 +10,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 const images = [
-  { src: "/2gif.gif", thumbnail: "/2.png" },
+  { src: "/2GIF.gif", thumbnail: "/2G.jpg" },
   { src: "/7gif.gif", thumbnail: "/7.png" },
-  { src: "/job.png", thumbnail: "/job.png" },
+  { src: "/job.gif", thumbnail: "/job.png" },
+  // { src: "/job2.gif", thumbnail: "/job.png" },
+  
 ];
 
 export default function ImageGallery() {
@@ -27,7 +29,7 @@ export default function ImageGallery() {
     dots: true,
     infinite: true,
     speed: 600,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
