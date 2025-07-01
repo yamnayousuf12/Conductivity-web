@@ -40,6 +40,15 @@ const testimonials = [
     feedback:
       "Thank you very much conductivity for deliver the right message in our annual sales conference to our sales team. It is critical to embed the right message for sales team and we are really happy with the way Conductivity Career & HR Solutions did it.",
   },
+   {
+    id: 4,
+    name: "Waqqas Asghar",
+    role: "CEO RH CPAs",
+    image: "/Waqqas.jpg",
+    rating: 4,
+    feedback:
+      "We are pleased to acknowledge the professional services of Conductivity Consultancy (Pvt.) Ltd., our outsourced HR and payroll service provider for our Karachi-based employees. Over the past few years, we have witnessed significant growth in their capabilities, service quality, and operational maturity.Their team has consistently demonstrated a high level of responsiveness and commitment to resolving issues in a timely and efficient manner. Notably, their enhanced attention to detail and adaptability to evolving requirements have strengthened our confidence in their support.We appreciate their continued efforts in improving service delivery and look forward to a mutually beneficial relationship ahead.",
+  },
 ];
 
 export default function Testimonial() {

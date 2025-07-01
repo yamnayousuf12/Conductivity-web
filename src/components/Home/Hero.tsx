@@ -64,7 +64,7 @@ export default function ImageGallery() {
   };
 
   return (
-    <div className="relative lg:w-full lg:py-8 lg:px-4 lg:mt-6 mt-16 bg-white dark:bg-black transition-colors duration-300 lg:min-h-screen  flex flex-col items-center justify-center text-white dark:text-gray-300 w-full h-48">
+    <div className="relative lg:w-full lg:py-8 lg:px-4 lg:mt-6 mt-16 bg-white dark:bg-black transition-colors duration-300 lg:min-h-screen  flex flex-col items-center justify-center  w-full h-48">
       {/* Background Image Transition */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -75,7 +75,7 @@ export default function ImageGallery() {
           animate={{ opacity: 0.9 }}
           exit={{ opacity: 0 }}
         />
-      </AnimatePresence>
+    </AnimatePresence>
 
       
        <div className="lg:relative lg:z-10 lg:mt-96 mt-24 w-10/12 sm:w-4/5 md:w-3/4 lg:w-2/3 ">

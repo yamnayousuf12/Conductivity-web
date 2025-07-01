@@ -15,8 +15,8 @@ const LandingPage = () => {
           <h1 className="lg:text-4xl lg:mt-0 text-xl mt-6 font-bold leading-tight text-darkBlue dark:text-white lg:text-center ">
             C<span className="text-Red">σ</span>nductivity Consultancy (Pvt.) Ltd
           </h1>
-          <p className="text-Red uppercase lg:text-3xl font-bold lg:text-center">Enabling success</p>
-          <p className=" text-Red lg:text-center lg:text-lg text-base">for</p>
+          <p className="text-Red uppercase lg:text-3xl font-bold lg:text-center">Enabling success for</p>
+          {/* <p className=" text-Red lg:text-center lg:text-lg text-base">for</p> */}
 
           <div className="flex justify-center md:justify-start items-center gap-4 mt-6  lg:ml-32">
             <button className="lg:px-6 lg:py-3 bg-Blue text-white rounded-lg shadow-lg hover:bg-Red transition-colors duration-300 lg:text-base px-3 py-1 text-sm">

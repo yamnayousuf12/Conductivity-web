@@ -6,7 +6,7 @@ const TeamSection = () => {
       <div className="max-w-6xl mx-auto border-b-4 border-Red dark:border-Red mb-6">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-center">
-            Our Trademarked <br /> Process & Workflow.
+            OUR TRADEMARKED <br /> PROCESS & WORKFLOW.
           </h2>
         </div>
       </div>

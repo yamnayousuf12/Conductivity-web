@@ -40,7 +40,7 @@ const About = () => {
             className="w-16 h-1 bg-[#d67979] my-4 mx-auto ml-4 origin-left"
           ></motion.div>
 
-          <p className="text-2gray leading-relaxed">
+          <p className="text-gray2 leading-relaxed">
             Conductivity Career & HR Solutions is dedicated to enhancing human capital for businesses and professionals alike. Our platform offers HR consultancy, career services, and workforce solutions tailored to meet the unique needs of our clients. From recruitment and talent management to organizational development and career coaching, we strive to empower individuals and companies to reach their full potential.
           </p>
         </motion.div>

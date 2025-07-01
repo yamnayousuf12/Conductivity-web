@@ -20,28 +20,28 @@ const teamMembers: TeamMember[] = [
   {
     id: 1,
     name: "Syed Saqib Hassain",
-    role: "Head of Recruitment",
+    role: "Facility Manager",
     image: "/saqib.jpg",
    
   },
   {
     id: 2,
     name: "Iqra Sohail",
-    role: "Senior Recruitment Officer",
+    role: "Staff & OD Executive",
     image: "/II.jpg",
    
   }, 
   {
     id: 3,
     name: "Syed Muhammad Asad",
-    role: "Events Supervisor",
+    role: "Social Media Executive",
     image: "/asad.jpeg",
 
   },
   {
     id: 4,
     name: "Wafa Fazal",
-    role: "Academic & back-office Coordinator",
+    role: "Accounts & Finance Executive",
     image: "/Wafa.jpg",
     
   },
@@ -49,26 +49,26 @@ const teamMembers: TeamMember[] = [
   {
     id: 5,
     name: "Tarb Mohsin",
-    role: "Programmer",
+    role: "Software Engineer",
     image: "/TM.jpg",
 
   },
-  {
-    id: 6,
-    name: "Yamna Yousuf",
-    role: "UI/UX  Dlpveloper",
-    image: "/YY.jpg",
-    github: "https://github.com/bobsmith",
-    linkedin: "https://linkedin.com/in/alice"
-  },
-  {
-    id: 7,
-    name: "Rafia",
-    role: "Research Associate Intern",
-    image: "/Rif.jpg",
-    twitter: "https://twitter.com/carla_design",
+  // {
+  //   id: 6,
+  //   name: "Yamna Yousuf",
+  //   role: "UI/UX  Dlpveloper",
+  //   image: "/YY.jpg",
+  //   github: "https://github.com/bobsmith",
+  //   linkedin: "https://linkedin.com/in/alice"
+  // },
+  // {
+  //   id: 7,
+  //   name: "Rafia",
+  //   role: "Research Associate Intern",
+  //   image: "/Rif.jpg",
+  //   twitter: "https://twitter.com/carla_design",
   
-  },
+  // },
 ];
 
 
