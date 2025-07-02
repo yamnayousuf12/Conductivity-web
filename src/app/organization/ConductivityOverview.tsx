@@ -1,4 +1,4 @@
-// app/components/ConductivityDiagram.tsx
+
 import Image from "next/image";
 export default function ConductivityDiagram() {
   return (

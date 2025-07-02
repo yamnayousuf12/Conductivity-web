@@ -1,4 +1,4 @@
-// app/components/Conductivity.tsx
+
 import Image from "next/image";
 
 export default function Conductivity() {
@@ -26,17 +26,6 @@ export default function Conductivity() {
           <span className="text-gray2">|</span>
           <span>Success</span>
         </p>
-
-        {/* Simplified diagram or graphic placeholder */}
-        {/* <div className="mt-12">
-          <Image
-            src="/og.png" // Replace with actual version of the center diagram from your image
-            alt="Network Diagram"
-            width={800}
-            height={500}
-            className="mx-auto"
-          />
-        </div> */}
       </div>
     </section>
   );
