@@ -1,8 +1,10 @@
 import React from 'react'
 import Hero from './Hero'
 // import Promo from './promo'
-import Testimonial from '@/app/testimonials/page'
+// Update the import path below to the correct relative path if needed
+// import Testimonial from '../testimonials/page'
 import Promo from './promo'
+import Testimonial from '../../app/testimonials/page'
 
 
 

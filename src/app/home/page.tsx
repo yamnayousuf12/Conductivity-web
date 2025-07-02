@@ -96,6 +96,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import Team from "./Hteamt";
 import WhyChooseUs from "./WhyChooseUs";
 
@@ -113,7 +114,7 @@ const LandingPage = () => {
           <p className="text-Red uppercase text-2xl lg:text-3xl font-bold">
             Enabling success for
           </p>
-          <div className="flex justify-center items-center gap-4 mt-4">
+          {/* <div className="flex justify-center items-center gap-4 mt-4">
             <button className="px-6 py-3 bg-Blue text-white rounded-lg shadow-lg hover:bg-Red transition-colors duration-300 text-base">
               Organization
             </button>
@@ -121,6 +122,20 @@ const LandingPage = () => {
             <button className="px-6 py-3 bg-Blue text-white rounded-lg shadow-lg hover:bg-Red transition-colors duration-300 text-base">
               Individuals
             </button>
+          </div> */}
+           {/* Buttons with Links */}
+          <div className="flex justify-center items-center gap-4 mt-4">
+            <Link href="/organization">
+              <button className="px-6 py-3 bg-Blue text-white rounded-lg shadow-lg hover:bg-Red transition-colors duration-300 text-base">
+                Organization
+              </button>
+            </Link>
+            <span className="text-lg font-bold text-Red">&</span>
+            <Link href="/individuals">
+              <button className="px-6 py-3 bg-Blue text-white rounded-lg shadow-lg hover:bg-Red transition-colors duration-300 text-base">
+                Individuals
+              </button>
+            </Link>
           </div>
         </div>
       </div>
