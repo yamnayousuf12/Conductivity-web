@@ -5,14 +5,14 @@ export default function TalentBanner() {
   return (
     <div className="relative w-full h-screen bg-black overflow-hidden">
       <div className="absolute top-20 left-10 text-white space-y-4">
-        <h2 className="text-4xl text-gray font-semibold">Finding</h2>
-        <h2 className="text-4xl text-gray font-semibold">The right</h2>
-        <h2 className="text-4xl text-gray font-semibold">Talent is</h2>
+        <h2 className="text-4xl text-gray2 font-semibold">Finding</h2>
+        <h2 className="text-4xl text-gray2 font-semibold">The right</h2>
+        <h2 className="text-4xl text-gray2 font-semibold">Talent is</h2>
         <h2 className="text-4xl text-Red font-bold">Challenging</h2>
 
         <div className="mt-16">
-          <h2 className="text-5xl text-Blue font-bold">We are ready!</h2>
-          <p className="text-2xl text-white italic">
+          <h2 className="text-5xl text-Blue font-bold mt-40">We are ready!</h2>
+          <p className="text-2xl text-white ">
             Talent Identification <br /> Services
           </p>
         </div>
